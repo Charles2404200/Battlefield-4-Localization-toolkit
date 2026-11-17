@@ -1,0 +1,33 @@
+# Build and IDE output
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Local research, exports, stages, backups, and packaged binaries
+/backups/
+/dump/
+/exports/
+/reference/
+/release/
+/stage/
+/stages/
+/verify/
+/publish/
+/patchbf4/
+
+# Game assets and generated payloads should not be committed
+*.cas
+*.cat
+*.sb
+*.toc
+*.gfx
+*.ebx
+*.ttf
+*.cas-payload
+*.bin
+*.csv
+*.exe
+*.dll
+*.log
